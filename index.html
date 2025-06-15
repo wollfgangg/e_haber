@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>E-Haber Admin Paneli</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase SDK compat sürümü -->
+  <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics-compat.js"></script>
+</head>
+<body>
+  <h1>Haber Ekle</h1>
+  <form id="haberForm">
+    <input type="text" id="baslik" placeholder="Başlık" required /><br /><br />
+    <textarea id="icerik" placeholder="İçerik" required></textarea><br /><br />
+    <input type="text" id="resimUrl" placeholder="Resim URL" /><br /><br />
+    <button type="submit">Haberi Yükle</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
