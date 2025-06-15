@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Ana Sayfa"
+        android:icon="@drawable/outline_add_home_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/Kategori"
+        app:showAsAction="always"
+        android:icon="@drawable/outline_category_24"
+        android:title="Kategori"
+
+        />
+    <item
+        android:id="@+id/Video"
+        app:showAsAction="always"
+        android:title="Video"
+        android:icon="@drawable/outline_airplay_24"
+
+        />
+    <item
+        android:id="@+id/menu_duyuru"
+        app:showAsAction="always"
+        android:title="Duyuru"
+        android:icon="@drawable/outline_circle_notifications_24"
+
+        />
+</menu>

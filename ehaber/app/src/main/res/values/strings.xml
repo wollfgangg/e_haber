@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">e-haber</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kategori_haberleri_varsayilan_baslik">Kategori Haberleri</string>
+    <string name="veri_yok_mesaji">Bu kategoride henüz haber bulunmuyor.</string>
+</resources>

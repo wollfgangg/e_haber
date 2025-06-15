@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:gravity="center"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="5dp">
+    <ImageView
+        android:id="@+id/homeCatIcon"
+        android:layout_width="45dp" android:layout_height="45dp"
+        android:src="@drawable/eh"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/homeCatName"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Category" android:textSize="12sp"
+        android:textColor="#111" android:gravity="center"/>
+</LinearLayout>

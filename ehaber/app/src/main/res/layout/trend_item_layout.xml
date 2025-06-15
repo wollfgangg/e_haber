@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/trend_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/teknoloji" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trend_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textColor="#d77d18"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/trend_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is Dummy Text For Title and News App Please Verify Your Account?"
+                android:textStyle="bold"
+                android:textColor="#222"
+                android:textSize="15sp"
+                android:paddingTop="2dp" />
+
+            <TextView
+                android:id="@+id/trend_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/02/2024"
+                android:textColor="#888"
+                android:textSize="12sp"
+                android:paddingTop="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
